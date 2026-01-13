@@ -1,0 +1,37 @@
+2026-01-13 11:17:46 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-01-13 11:19:10 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2026-01-13 11:20:00 [snail-job-grpc-client-executor-127.0.0.1-0] ERROR c.a.s.c.j.c.r.JobExecutorRegistrar - Job executors register error requestId:[0] message:[UNAVAILABLE: io exception]
+2026-01-13 11:20:00 [snail-job-grpc-client-executor-127.0.0.1-2] ERROR c.a.s.c.c.handler.ClientRegister - heartbeat check requestId:[1] message:[UNAVAILABLE: io exception]
+2026-01-13 11:20:10 [snail-job-grpc-client-executor-127.0.0.1-3] ERROR c.a.s.c.c.handler.ClientRegister - heartbeat check requestId:[3] message:[UNAVAILABLE: io exception]
+2026-01-13 11:20:20 [snail-job-grpc-client-executor-127.0.0.1-4] ERROR c.a.s.c.c.handler.ClientRegister - heartbeat check requestId:[4] message:[UNAVAILABLE: io exception]
+2026-01-13 11:20:30 [snail-job-grpc-client-executor-127.0.0.1-5] ERROR c.a.s.c.c.handler.ClientRegister - heartbeat check requestId:[5] message:[UNAVAILABLE: io exception]
+2026-01-13 11:20:40 [snail-job-grpc-client-executor-127.0.0.1-6] ERROR c.a.s.c.c.handler.ClientRegister - heartbeat check requestId:[6] message:[UNAVAILABLE: io exception]
+2026-01-13 13:32:15 [XNIO-1 task-4] ERROR o.d.c.s.h.SaTokenExceptionHandler - 请求地址'/system/menu/list',认证失败'token 已被冻结：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxIiwicm5TdHIiOiJKNlk4ZHVod2FWdHA0TkVqaFljalpyU2U2d0hPbnF3ayIsImNsaWVudGlkIjoiZTVjZDdlNDg5MWJmOTVkMWQxOTIwNmNlMjRhN2IzMmUiLCJ0ZW5hbnRJZCI6IjAwMDAwMCIsInVzZXJJZCI6MSwidXNlck5hbWUiOiJhZG1pbiIsImRlcHRJZCI6MTAzLCJkZXB0TmFtZSI6IueglOWPkemDqOmXqCIsImRlcHRDYXRlZ29yeSI6IiJ9.tnUbvYXvEws8IpQC6wQYqHgG_e1-qSxjdb0s96ovoDw',无法访问系统资源
+2026-01-13 13:32:15 [XNIO-1 task-2] ERROR o.d.c.s.h.SaTokenExceptionHandler - 请求地址'/system/dict/data/type/sys_show_hide',认证失败'token 已被冻结：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxIiwicm5TdHIiOiJKNlk4ZHVod2FWdHA0TkVqaFljalpyU2U2d0hPbnF3ayIsImNsaWVudGlkIjoiZTVjZDdlNDg5MWJmOTVkMWQxOTIwNmNlMjRhN2IzMmUiLCJ0ZW5hbnRJZCI6IjAwMDAwMCIsInVzZXJJZCI6MSwidXNlck5hbWUiOiJhZG1pbiIsImRlcHRJZCI6MTAzLCJkZXB0TmFtZSI6IueglOWPkemDqOmXqCIsImRlcHRDYXRlZ29yeSI6IiJ9.tnUbvYXvEws8IpQC6wQYqHgG_e1-qSxjdb0s96ovoDw',无法访问系统资源
+2026-01-13 13:32:15 [XNIO-1 task-3] ERROR o.d.c.s.h.SaTokenExceptionHandler - 请求地址'/system/dict/data/type/sys_normal_disable',认证失败'token 已被冻结：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxIiwicm5TdHIiOiJKNlk4ZHVod2FWdHA0TkVqaFljalpyU2U2d0hPbnF3ayIsImNsaWVudGlkIjoiZTVjZDdlNDg5MWJmOTVkMWQxOTIwNmNlMjRhN2IzMmUiLCJ0ZW5hbnRJZCI6IjAwMDAwMCIsInVzZXJJZCI6MSwidXNlck5hbWUiOiJhZG1pbiIsImRlcHRJZCI6MTAzLCJkZXB0TmFtZSI6IueglOWPkemDqOmXqCIsImRlcHRDYXRlZ29yeSI6IiJ9.tnUbvYXvEws8IpQC6wQYqHgG_e1-qSxjdb0s96ovoDw',无法访问系统资源
