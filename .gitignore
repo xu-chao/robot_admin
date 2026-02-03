@@ -1,6 +1,4 @@
 /logs/
 /.idea/
-/ruoyi-admin/target/
-/target/
-/ruoyi-common/ruoyi-common-core/target/
-/ruoyi-modules/ruoyi-demo/target/
+/**/target/
+/**/**/target/
