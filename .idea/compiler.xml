@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Annotation profile for RuoYi-Vue-Plus" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -27,6 +28,7 @@
         <module name="ruoyi-generator" />
         <module name="ruoyi-common-tenant" />
         <module name="ruoyi-common-doc" />
+        <module name="ruoyi-robot" />
         <module name="ruoyi-common-satoken" />
         <module name="ruoyi-common-security" />
         <module name="ruoyi-common-oss" />
@@ -87,6 +89,7 @@
       <module name="ruoyi-job" options="-parameters" />
       <module name="ruoyi-modules" options="-parameters" />
       <module name="ruoyi-monitor-admin" options="-parameters" />
+      <module name="ruoyi-robot" options="-parameters" />
       <module name="ruoyi-snailjob-server" options="-parameters" />
       <module name="ruoyi-system" options="-parameters" />
       <module name="ruoyi-vue-plus" options="-parameters" />
